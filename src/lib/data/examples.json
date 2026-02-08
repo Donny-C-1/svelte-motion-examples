@@ -1,0 +1,37 @@
+[
+    {
+        "slug": "fade",
+        "name": "Fade Transition",
+        "description": "A simple fade in/out transition for elements entering or leaving the DOM.",
+        "library": "svelte/motion",
+        "category": "layout"
+    },
+    {
+        "slug": "scale",
+        "name": "Scale Transition",
+        "description": "Animate the scale of an element on entry and exit.",
+        "library": "svelte/motion",
+        "category": "animation"
+    },
+    {
+        "slug": "crossfade",
+        "name": "Crossfade Helper",
+        "description": "Seamlessly move an element between two different parent containers.",
+        "library": "svelte/motion",
+        "category": "transition"
+    },
+    {
+        "slug": "fly",
+        "name": "Fly Transition",
+        "description": "Animate an element in a direction while fading it in and out.",
+        "library": "svelte/motion",
+        "category": "transition"
+    },
+    {
+        "slug": "app-folder",
+        "name": "App Folder",
+        "description": "A folder structure animation that reveals nested items with smooth transitions and hierarchical visibility effects.",
+        "library": "svelte/motion",
+        "category": "layout"
+    }
+]

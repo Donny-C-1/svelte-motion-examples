@@ -1,0 +1,40 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bouncing ball -->
+  <circle cx="60" cy="60" r="12" fill="hsl(130, 95%, 55%)" opacity="0.9">
+    <animate attributeName="cy" values="40;80;40" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="12;10;12" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Motion trail circles -->
+  <circle cx="60" cy="50" r="8" fill="hsl(130, 95%, 55%)" opacity="0.4">
+    <animate attributeName="cy" values="45;70;45" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="60" cy="55" r="6" fill="hsl(130, 95%, 55%)" opacity="0.3">
+    <animate attributeName="cy" values="50;65;50" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.05;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Ground line that compresses on impact -->
+  <line x1="35" y1="85" x2="85" y2="85" stroke="hsl(130, 95%, 55%)" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="y1" values="85;87;85" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="85;87;85" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Curved motion path arc -->
+  <path d="M 30 40 Q 45 25 60 40" stroke="hsl(130, 95%, 55%)" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="4 4">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <path d="M 60 40 Q 75 25 90 40" stroke="hsl(130, 95%, 55%)" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="4 4">
+    <animate attributeName="opacity" values="0.6;0.3;0.6" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Impact ripple effect -->
+  <circle cx="60" cy="85" r="8" stroke="hsl(130, 95%, 55%)" stroke-width="2" fill="none" opacity="0">
+    <animate attributeName="r" values="8;20;8" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

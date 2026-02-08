@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--background: 0 0% 100%;
+	--foreground: 222.2 47.4% 11.2%;
+
+	--card: 0 0% 100%;
+	--card-foreground: 222.2 47.4% 11.2%;
+
+	--popover: 0 0% 100%;
+	--popover-foreground: 222.2 47.4% 11.2%;
+
+	--primary: 222.2 47.4% 11.2%;
+	--primary-foreground: 210 40% 98%;
+
+	--secondary: 210 40% 96.1%;
+	--secondary-foreground: 222.2 47.4% 11.2%;
+
+	--muted: 210 40% 96.1%;
+	--muted-foreground: 215.4 16.3% 46.9%;
+
+	--accent: 210 40% 96.1%;
+	--accent-foreground: 222.2 47.4% 11.2%;
+
+	--destructive: 0 84.2% 60.2%;
+	--destructive-foreground: 210 40% 98%;
+
+	--border: 214.3 31.8% 91.4%;
+	--input: 214.3 31.8% 91.4%;
+	--ring: 222.2 47.4% 11.2%;
+
+	--radius: 0.5rem;
+
+	--monospace: "Monaco", "Courier New", monospace;
+}
+
+.dark {
+  --background: 224 18% 8%;           /* A very dark deep navy blue background */
+  --foreground: 213 20% 95%;          /* Clean bright off-white for main text */
+
+  --card: 224 18% 12%;          /* A slightly lighter navy to make cards subtly float */
+  --card-foreground: 213 20% 95%;
+
+  --popover: 224 18% 8%;
+  --popover-foreground: 213 20% 95%;
+
+  /* --- The "Cool & Contrasting" Colours --- */
+
+  --primary: 190 100% 68%;        /* The STAR of the show: a vibrant electric purple/magenta */
+  --primary-foreground: 190 100% 10%; /* Dark text to go on the bright primary color */
+
+  /*--accent: 28 100% 58%;         /* THE NEW ACCENT: a sharp energetic orange 
+  --accent-foreground: 28 100% 15%;
+*/
+
+  --accent: 130, 95%, 55%;         /* A sharp, electric lime green */
+  --accent-foreground: 130, 100%, 10%;
+
+  /* --- Supporting UI Colours --- */
+
+  --secondary: 220 20% 20%;           /* A darker subtle blue-grey for less important elements */
+  --secondary-foreground: 213 20% 95%;
+
+  --muted: 220 20% 20%;
+  --muted-foreground: 220 15% 60%;  /* Softer grey for muted text */
+
+  --destructive: 0 80% 65%;           /* A clean bright red for destructive actions */
+  --destructive-foreground: 0 100% 10%;
+
+  --border: 220 20% 20%;              /* The border will match the secondary elements */
+  --input: 220 20% 20%;
+  --ring: 190 100% 68%;               /* The focus ring will use the vibrant cyan accent */
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: hsl(var(--background));
+	color: hsl(var(--foreground));
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialised;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: blcok;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+.container {
+	width: 100%;
+	max-width: 90rem;
+	margin-inline: auto;
+	padding-inline: clamp(1rem, 5vw, 4rem);
+}
