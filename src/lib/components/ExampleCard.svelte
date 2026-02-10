@@ -2,7 +2,7 @@
 	let { slug, name, description, imageSrc, motionLibrary = "svelte/motion", category } = $props();
 </script>
 
-<a href="/examples/{slug}" class="example-card">
+<a href="./examples/{slug}" class="example-card">
 	<div class="card-preview">
 		{#if imageSrc}
 			<img src={imageSrc} alt={name} class="preview-image" />
