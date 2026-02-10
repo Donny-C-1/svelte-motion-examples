@@ -1,42 +1,28 @@
-# sv
+# svelte-motion
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A collection of animation examples and patterns for Svelte applications.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- 🎯 Practical animation examples
+- ⚡ Performance-optimized animations
+- 🎨 Customizable easing and timing
+- 📦 Copy-paste ready code snippets
+- ♿ Accessibility considerations
+- 🔧 TypeScript examples included
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Getting Started
 
-To recreate this project with the same configuration:
+Clone or download the examples from this repository.
 
-```sh
-# recreate this project
-npx sv create --template minimal --no-types --add sveltekit-adapter="adapter:static" prettier tailwindcss="plugins:none" --install npm .
-```
+## Examples
 
-## Developing
+Browse the `/examples` directory for various animation patterns including transitions, springs, tweens, and more.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Contributing
 
-```sh
-npm run dev
+Contributions are welcome! Please read our [contributing guide](./CONTRIBUTING.md).
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## License
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+MIT
