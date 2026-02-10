@@ -62,6 +62,7 @@
   border: .1rem solid hsl(var(--border));
   padding: 1rem;
   border-radius: .5rem;
+  width: 100%;
 }
 
 .controls {

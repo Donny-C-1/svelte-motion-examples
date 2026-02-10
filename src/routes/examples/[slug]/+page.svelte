@@ -18,6 +18,7 @@
   .page {
     padding-block: 2rem;
     height: 100%;
+    overflow: hidden;
   }
 
   .error_block {
