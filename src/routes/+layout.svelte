@@ -1,6 +1,7 @@
 <script>
     import './app.css';
     import logo from "$lib/assets/logo.svg";
+    import { resolve } from '$app/paths';
 
 	let { children } = $props();
 </script>
@@ -13,7 +14,7 @@
 <div class="app_container">
     <header class="app_header">
         <div class="container header_content">
-            <a href="/svelte-motion-examples" class="site_title">
+            <a href="{resolve("/")}" class="site_title">
                 <img class="logo" src={logo} alt="svelte motion" width="30" />
                 Svelte Motion Explorer
             </a>
