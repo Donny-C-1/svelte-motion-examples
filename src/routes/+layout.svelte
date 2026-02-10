@@ -13,7 +13,7 @@
 <div class="app_container">
     <header class="app_header">
         <div class="container header_content">
-            <a href="/" class="site_title">
+            <a href="/svelte-motion-examples" class="site_title">
                 <img class="logo" src={logo} alt="svelte motion" width="30" />
                 Svelte Motion Explorer
             </a>
